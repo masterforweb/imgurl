@@ -1,0 +1,26 @@
+{
+    
+    "require": {
+        "php":">=5.3.0",
+        "masterforweb/_kuri":"dev-master",
+        "masterforweb/thumbcache":"dev-master",
+        "masterforweb/imgurl-kuri":"dev-master"
+
+    },
+    "repositories":[
+        
+        {
+            "type":"git",
+            "url":"https://github.com/masterforweb/_kuri"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/masterforweb/thumbcache"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/masterforweb/imgurl-kuri"
+        }
+        
+    ]
+}

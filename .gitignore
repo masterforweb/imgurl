@@ -1,0 +1,15 @@
+config/config.php
+vendor/
+pub/
+*.jpg
+*.jpeg
+*.gif
+*.png
+*.wmp
+*.JPG
+*.JPEG
+*.webp
+*.avi
+*.mov
+*.log
+

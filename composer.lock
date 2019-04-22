@@ -1,0 +1,115 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0cf12fa2e470728d5c41009c8ecdd23e",
+    "packages": [
+        {
+            "name": "masterforweb/_kuri",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/_kuri",
+                "reference": "e1d9baea288d02d2987a04d16155ce506d5f9ce3"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "_kuri.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AK Delfin",
+                    "email": "masterforweb@hotmail.com"
+                }
+            ],
+            "description": "Autorouting without regular. MVC standart role: controller/action/params. Quick start",
+            "homepage": "https://github.com/masterforweb/_kuri",
+            "keywords": [
+                "microframework",
+                "php quick start",
+                "rest",
+                "router"
+            ],
+            "time": "2018-12-24T10:48:08+00:00"
+        },
+        {
+            "name": "masterforweb/imgurl-kuri",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/imgurl-kuri",
+                "reference": "dbcbcbdcf70fdefdd6c613029cee1bf450e50044"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "imgurl.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "module imgurl server",
+            "homepage": "https://github.com/masterforweb/imgurl-kuri",
+            "keywords": [
+                "images",
+                "php"
+            ],
+            "time": "2019-04-22T18:34:03+00:00"
+        },
+        {
+            "name": "masterforweb/thumbcache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/thumbcache",
+                "reference": "d3347bc7910b99668251f6e7b6a8855cd7fdc100"
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "thumbcache.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "thumbcache jpeg",
+            "homepage": "https://github.com/akdelf/thumbcache",
+            "keywords": [
+                "thumb images"
+            ],
+            "time": "2018-11-06T18:51:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "masterforweb/_kuri": 20,
+        "masterforweb/thumbcache": 20,
+        "masterforweb/imgurl-kuri": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
